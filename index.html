@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pegada Ecológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Pegada Ecológica</h1>
+    </header>
+    <main>
+        <form id="eco-form">
+            <label for="consumo-agua">Consumo de Água (litros por dia):</label>
+            <input type="number" id="consumo-agua" required>
+
+            <label for="consumo-energia">Consumo de Energia (kWh por dia):</label>
+            <input type="number" id="consumo-energia" required>
+
+            <label for="quilometros-carro">Quilômetros percorridos de carro por dia:</label>
+            <input type="number" id="quilometros-carro" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <div id="resultado"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
