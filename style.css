@@ -17,7 +17,8 @@ header {
 }
 
 header h1 {
-    margin: center;
+    align-items: center;
+    margin: 0;
     flex-grow: 1;
 }
 
