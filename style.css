@@ -31,8 +31,6 @@ header h1 {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 .cabecalho-imagem {
     width: 200px; /* Ajuste o tamanho conforme necessário */
     margin-left: 20px;
@@ -43,6 +41,7 @@ main {
     margin: 0 auto;
     padding: 20px;
     background-color: #dbc359d0;
+    align-items: center;
 }
 
 .form-container {
