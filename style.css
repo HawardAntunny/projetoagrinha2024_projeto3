@@ -32,7 +32,8 @@ header h1 {
 }
 
 .cabecalho-imagem {
-    width: 200px; /* Ajuste o tamanho conforme necessário */
+    width: 200px; 
+    align-items: center;
     margin-left: 20px;
 }
 
