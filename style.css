@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #72bb7e;
 }
 
 header h1 {
@@ -22,7 +22,7 @@ header h1 {
 }
 
 .cabecalho-imagem {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
+    width: 200px; /* Ajuste o tamanho conforme necessário */
     margin-left: 20px;
 }
 
@@ -30,6 +30,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #d8d67ead;
 }
 
 .form-container {
